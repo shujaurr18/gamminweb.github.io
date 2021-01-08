@@ -1,0 +1,610 @@
+body {
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #666;
+    background-color: #edf3f7;
+    line-height: 22px;
+    height: 100%;
+}
+html {
+    
+    height: 100%;
+}
+.soicno:hover{
+    color: #adadad !important;
+}
+
+.playgame{
+    background-color: rgb(184, 60, 118);
+    height: 470px;
+    text-align: center;
+    
+    
+}
+.playinnerprt{
+    position: relative;
+    top:110px;
+   
+}
+.playinnerprt h1{
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.playinnerprt img{
+    height: 120px;
+    width: 160px;
+    position: relative;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.btnplaygame{
+    border: none;
+    display: block;
+    width: 240px;
+    padding-bottom: 50px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background: #6fcd84;
+    color: #fff;
+    margin: 0 auto;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btnplaygame:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.rightside{
+    overflow: hidden;
+color: #666;
+    background-color: #fff;
+}
+.p_right{
+    padding-right: 12px;
+    overflow: hidden;
+}
+.titletag{
+    height: 50px;
+    padding: 16px;
+    position: relative;
+justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-bottom: 1px solid #f3f3f3;
+}
+.titletag h1{
+    font-size: 16px;
+    color: #333;
+}
+.titletag p{
+    font-size:12px ;
+}
+.fa-angle-right{
+    padding-top: 6px;
+    font-size: 12px;
+    padding-left: 2px;
+}
+
+.moremainprt{
+    padding-left: 10px;
+    padding-right: 10px;
+   cursor: pointer;
+    
+}
+.moremainprt1{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+
+
+    
+}
+.imgtit img{
+    overflow: hidden;
+    display: inline-block;
+    height: 30px;
+    
+    width: 40px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-right: 5px;
+    background: #edf3f7;
+    cursor: pointer;
+}
+.imgtit img:hover{
+    color: #ed8a33;
+}
+.rightleftprt p:hover{
+    color: #ed8a33;
+
+    cursor: pointer;  
+
+}
+.hoverclr > img:hover +p{
+    color: #ed8a33;
+}
+.likegames > img:hover +p{
+    background-color: #ed8a33;
+    color: #fff;
+}
+.likegamlst > img:hover +p{
+    background-color: #ed8a33;
+    color: #fff;
+}
+.rrightprt p:hover{
+    color: #ed8a33;
+    cursor: pointer;  
+}
+.getapp img{
+ 
+    background: #e9eff2;
+    width: 100px;
+    height: 66px;
+ }
+
+ .getapp p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    left: 110px;
+    overflow: hidden;
+    
+    top: -65px;
+ }
+ .soicno {
+    overflow: hidden;
+    color: #adadad;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 10px;
+    padding-left: 20px;
+    overflow: hidden;
+    font-size: .75rem;
+}
+.fa-download{
+    
+    overflow: hidden;
+    float: right;
+    right: 16px;
+    height: 24px;
+   text-align: center;
+   justify-content: center; 
+    width: 24px;
+padding-top: 4px;
+    color: #fff;
+    text-align: center;
+    margin-right: 120px;
+    background: #0284fe;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+border-radius: 50%;
+
+}
+.fa-user{
+    padding-right: 5px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.getapp p:hover{
+ 
+    color: #666;
+}
+.fa-star{
+    color: #ed8a33;
+    font-size: 12px;
+    
+    
+}
+.secndprt{
+    margin-top: -60px;
+}
+.getapp{
+overflow: hidden;
+    height: auto;
+    margin-bottom: -49px;
+}
+.bgame{
+    height: auto;
+    
+}
+
+.rightleftprt{
+    overflow: hidden;
+}
+.soicno{
+    overflow: hidden;
+}
+@media (max-width:766px){
+    /* .rightside {
+        color: #666;
+        margin-top: 16px;
+        margin-left: -25px;
+        padding-left: -4px;
+        overflow: hidden;
+        background-color: #fff;
+    } */
+  
+    
+}
+@media(max-width:400px){
+    .btnplaygame {
+
+    width: 150px;
+    height: 30px;
+}
+}
+.game_content .btn:active{
+    box-shadow: none;
+}
+@media (max-width:840px){
+    .fa-download{
+        margin-right: 120px;
+    }
+    .rightleftprt {
+       
+        padding-right: 1px;
+        padding-left: 0px;
+    }
+    .getapp{
+
+        padding-left: 10px;
+    }
+    
+}
+.imgwalp{
+    background: #e9eff2;
+   cursor: pointer;
+    width: 126px;
+    height: 66px;
+    
+    overflow: hidden;
+ 
+}
+.parago{
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    left: 135px;
+    top: -70px;  
+    color: #333;
+    width: 210px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.parago:hover{
+    color: #ed8a33;
+}
+.btnpok{    display: inline-block;
+    padding: 2px 5px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #adadad;
+    border: 1px solid #f1f2f3;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-style: normal;
+    font-size: 12px;}
+    .btnpok:hover{
+        color: #ed8a33;
+    }
+    .hoverclr{
+
+        height: 80px;
+    }
+    .game_content{
+        background: #fff;
+        padding: 16px;
+        padding-bottom: 8px;
+        border-top: 1px solid #edf3f7;
+        position: relative;
+        height: auto;
+    }
+ 
+    .share:hover{
+        text-decoration: none !important;
+        color: #666;
+    }
+    .game_content h3{
+        padding-right: 50px;
+        color: #333;
+        font-size: 20px;
+    }
+    .game_content .btns{
+font-size: 12;
+    display: inline-block;
+    padding: 5px 15px;
+    text-align: center;
+    background: #edf3f7;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #666;
+    border: 1px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    }
+    .game_content .btns:hover{
+        color: #fff;
+        border: 1px solid #ed8a33;
+        background: #ed8a33;
+    }
+    .btns:focus{
+        outline: none;
+    
+    }
+    span{
+        color: #14b21d;
+    }
+    .game_content a{
+        color: #ed8a33;
+        text-decoration: none;
+    }
+    .game_content a:hover{
+        text-decoration: underline;
+    }
+    .share{
+        position: absolute;
+        
+     right: 3% ;
+     color: #666 !important;
+        text-decoration: none;
+    }
+.othergames{
+    padding-left: 9px;
+    padding-right: 10px;
+}
+
+.likegames{
+    margin-right: 2%;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    overflow: hidden;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #edf3f7;
+    width: 19%;
+    
+}
+.likegamlst{
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #edf3f7;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+  width: 19%;
+    overflow: hidden;
+}
+@media(max-width:662px){
+    .likegames{
+        display: grid;
+        width: 49%;
+    }
+    .likegamlst{
+        display: grid;
+        width: 49%;
+    }
+}
+@media(max-width:300px){
+    .likegames{
+        display: grid;
+        width: 99%;
+    }
+    .likegamlst{
+        display: grid;
+        width: 99%;
+    }
+}
+.likegames img{
+    cursor: pointer;
+    width: 100%;
+    height: 120px;
+}
+.likegamlst img{
+    cursor: pointer;
+    width: 100%;
+    height: 120px;
+}
+.inrprtother{
+    background-color: white;
+    
+}
+.inrprtother{
+    padding: 16px;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+}
+/* {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-left: 14px;
+    background: #fff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #edf3f7;
+} */
+.likegames p{
+    height: 36px;
+    line-height: 36px;
+   padding-left: 10px;
+   margin-bottom: -1px;
+   margin-right: -12px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #fff;
+}
+.likegames p:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #ed8a33;
+
+}
+.likegames img:hover {
+    opacity: .8;
+}
+
+.likegamlst p{
+    height: 36px;
+    line-height: 36px;
+   padding-left: 10px;
+   margin-bottom: -1px;
+   margin-right: -12px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #fff;
+}
+
+.likegamlst p:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #ed8a33;
+
+}
+.likegamlst img:hover{
+    opacity: 0.9;
+}
+.padingtop{
+    margin-top: -20px;
+}
+@media (max-width:992px){
+    .p_right {
+        padding-left: 12px;
+        
+    }
+    .respnmar{
+        color: #666;
+        margin-top: 8px;
+       
+        padding-left: -4px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+}
+
+.dropdowncontent ul{
+    text-decoration: none;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+.sharedropdown{
+    z-index: 999;
+    padding: 10px 20px;
+    width: 140px;
+    background: #fff;
+    position: absolute;
+    bottom: -130px;
+    right: 0px;
+    margin-right: 15px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+   
+    border: 1px solid #edf3f7;
+
+}
+.fa-facebook-square {
+    background-image: url(../images/Facebook-icon.svg);
+    
+    font-size: 16px;
+    color: #3b5998;
+}
+.fa-facebook-square{
+    background-image: url(../images/Facebook-icon.svg);
+    
+    font-size: 16px;
+    color: #3b5998; 
+}
+.fa-twitter-square{
+    color: #55acee;
+background-image: url(../images/Twitter-icon.svg);
+background-size: 60%;}
+.dropdowncontent ul li i{
+    position: relative;
+    top:5px;
+    font-size: 16px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.dropdowncontent ul li p{
+    cursor: pointer;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #666;
+    
+}
+
+.dropdowncontent li:hover{
+    opacity: .9;
+}
+.fa-google-plus-square{
+    color: #dd4b39;
+    background-image: url(../images/googleplus.svg);
+    
+}
+ .fa-vk    {
+    color: #6383a8;
+    background-image: url(../images/Vkontakte-icon.svg);
+    
+ }   
+ .fa-reddit-square{
+    color: #ff5700;
+    background-image: url(../images/Reddit-icon.svg);
+    
+ }
+ .fa-pinterest-square{
+    color: #cb2027;
+    background-image: url(../images/Pinterest-icon.svg);
+    
+ }
+ .fa-whatsapp-square{
+    color: #4dc247;
+    background-image: url(../images/WhatsApp-icon.svg);
+    
+ }
+ .fa-envelope-square{
+    color: rgb(61, 55, 55);
+    background-image: url(../images/Email-icon.svg);
+   
+    
+ }
